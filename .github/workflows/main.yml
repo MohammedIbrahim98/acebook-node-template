@@ -28,6 +28,7 @@ jobs:
       uses: cypress-io/github-action@v4
       with:
         start: npm run start:test
+        wait-on: http://localhost:3030
     - run: npm install
 
       
